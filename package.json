@@ -1,0 +1,24 @@
+{
+  "name": "stackdot-interview",
+  "version": "1.0.0",
+  "description": "Stackdot practical task",
+  "license": "ISC",
+  "author": "Kshitij Antani",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.14.1",
+    "typeorm": "^0.3.21",
+    "typescript": "^5.8.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1"
+  }
+}
