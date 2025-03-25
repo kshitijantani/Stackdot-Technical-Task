@@ -6,6 +6,7 @@ A RESTful API with built with Node.js, Express.js and PostgreSQL, institutes and
 
 - Institute Registration
 - School Regsitered details (class, standards, subjects, exams, etc..)
+- Registered College details (Univeristy, Degree, etc..)
 - PostgreSQL with Typeorm
 - CORS support for frontend APIs
 

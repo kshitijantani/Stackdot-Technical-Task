@@ -4,6 +4,7 @@ import dotenv from 'dotenv';
 import { appDataSource } from './ormconfig';
 import instituteRoutes from './routes/instituteRoute';
 import schoolRoutes from './routes/schoolRoute';
+import collegeRoutes from './routes/collegeRoute';
 
 dotenv.config();
 
@@ -14,6 +15,7 @@ app.use(express.json());
 
 app.use('api/institutes', instituteRoutes);
 app.use('api/schools', schoolRoutes);
+app.use('api/colleges', collegeRoutes);
 
 
 appDataSource.initialize().then(() => {
